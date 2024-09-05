@@ -10,16 +10,16 @@
 				{
 					"includeDirectories" : 
 					[
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-						"D:/Program/mingw64(8.1.0)/x86_64-w64-mingw32/include"
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+						"D:/Program/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0",
-						"D:/Program/mingw64(8.1.0)/lib/gcc",
-						"D:/Program/mingw64(8.1.0)/x86_64-w64-mingw32/lib",
-						"D:/Program/mingw64(8.1.0)/lib"
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0",
+						"D:/Program/mingw64/lib/gcc",
+						"D:/Program/mingw64/x86_64-w64-mingw32/lib",
+						"D:/Program/mingw64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -39,7 +39,7 @@
 						"mingwex"
 					]
 				},
-				"path" : "D:/Program/mingw64(8.1.0)/bin/gcc.exe",
+				"path" : "D:/Program/mingw64/bin/gcc.exe",
 				"version" : "8.1.0"
 			},
 			"language" : "C",
@@ -57,19 +57,19 @@
 				{
 					"includeDirectories" : 
 					[
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-						"D:/Program/mingw64(8.1.0)/x86_64-w64-mingw32/include"
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+						"D:/Program/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"D:/Program/mingw64(8.1.0)/lib/gcc/x86_64-w64-mingw32/8.1.0",
-						"D:/Program/mingw64(8.1.0)/lib/gcc",
-						"D:/Program/mingw64(8.1.0)/x86_64-w64-mingw32/lib",
-						"D:/Program/mingw64(8.1.0)/lib"
+						"D:/Program/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0",
+						"D:/Program/mingw64/lib/gcc",
+						"D:/Program/mingw64/x86_64-w64-mingw32/lib",
+						"D:/Program/mingw64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -92,7 +92,7 @@
 						"mingwex"
 					]
 				},
-				"path" : "D:/Program/mingw64(8.1.0)/bin/g++.exe",
+				"path" : "D:/Program/mingw64/bin/g++.exe",
 				"version" : "8.1.0"
 			},
 			"language" : "CXX",
@@ -118,7 +118,7 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "D:/Program/mingw64(8.1.0)/bin/windres.exe"
+				"path" : "D:/Program/mingw64/bin/windres.exe"
 			},
 			"language" : "RC",
 			"sourceFileExtensions" : 

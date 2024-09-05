@@ -1,18 +1,20 @@
-cmake_minimum_required(VERSION 3.15)
-project(PrimerPlus)
-set(CMAKE_CXX_STANDARD 17)
-set(HOME E:/projectCpp/PrimerPlus)
-set(EXECUTABLE_OUTPUT_PATH ${HOME}/bin)
-set(SRC ${HOME}/src)
+cmake_minimum_required(VERSION 3.15)    #cmake 最低版本
+project(PrimerPlus) 
+set(CMAKE_CXX_STANDARD 17)  #使用C++17
+set(HOME E:/projectCpp/PrimerPlus)  #项目目录
+set(EXECUTABLE_OUTPUT_PATH ${HOME}/bin) #生成文件目录
+set(SRC ${HOME}/src)    #源码目录
 #添加头文件目录
-include_directories(${PROJECT_SOURCE_DIR}/include)
-#搜索源文件，注意第一个参数为源文件目录，第二个参数为结果存放的变量名
-# aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
-# add_executable(main ${SRC_LIST})
+include_directories(${PROJECT_SOURCE_DIR}/include)  #头文件目录
 
+# 编译第几章
+set(COMPILE_CHAPATER 2)
 
-#另一种搜索方式
-#注意这里用的CMAKE_CURRENT_SOURCE_DIR和上面的PROJECT_SOURCE_DIR在只有一个CMakeLists.txt是一样的。
-#file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+file(GLOB_RECURSE CPP_LIST ${SRC}/${COMPILE_CHAPATER}/*.cpp) #找出src/2中所有cpp文件
+foreach(v ${CPP_LIST})
+    string(REGEX MATCH "2/.*" relative_path ${v})   #匹配查找2/*,查找结果为2/2_3.cpp
+    string(REGEX REPLACE "2/" "" target_name ${relative_path})  #将"2/"替换为空，替换结果为2_3.cpp
+    string(REGEX REPLACE ".cpp" "" target_name ${target_name})  #去除后缀,结果为2_3
+    add_executable(${target_name} ${v})
+endforeach()
 
-add_executable(2_1 ${SRC}/2_1.cpp)

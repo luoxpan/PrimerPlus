@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PrimerPlus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_1-Debug-728f589b6c6501488752.json",
+					"name" : "2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_2-Debug-d5d97f813d81314ed9b5.json",
+					"name" : "2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_3-Debug-5edc562c21665b835ef6.json",
+					"name" : "2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_4-Debug-d0d1f577dc56f81bb808.json",
+					"name" : "2_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_5-Debug-3618c3d8e62f6d55715c.json",
+					"name" : "2_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_6-Debug-000a2f2562ef13e16cb5.json",
+					"name" : "2_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_7-Debug-517039b4dcaf6aa8b061.json",
+					"name" : "2_7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/projectCpp/PrimerPlus/build",
+		"source" : "E:/projectCpp/PrimerPlus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
