@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.15)
+project(PrimerPlus)
+set(CMAKE_CXX_STANDARD 17)
+set(HOME E:/projectCpp/PrimerPlus)
+set(EXECUTABLE_OUTPUT_PATH ${HOME}/bin)
+set(SRC ${HOME}/src)
+#添加头文件目录
+include_directories(${PROJECT_SOURCE_DIR}/include)
+#搜索源文件，注意第一个参数为源文件目录，第二个参数为结果存放的变量名
+# aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
+# add_executable(main ${SRC_LIST})
+
+
+#另一种搜索方式
+#注意这里用的CMAKE_CURRENT_SOURCE_DIR和上面的PROJECT_SOURCE_DIR在只有一个CMakeLists.txt是一样的。
+#file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+
+add_executable(2_1 ${SRC}/2_1.cpp)
